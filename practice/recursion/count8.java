@@ -38,3 +38,18 @@ public int count8(int n) {
 
   return count;
 }
+
+/* Kotlin
+fun count8(n: Int): Int {
+    return when {
+        n < 100 -> if (n % 100 == 88) 3 else if (n < 10 && n % 10 == 8) 1 else 0
+        else -> {
+            when {
+                n % 100 == 88 -> 2 + count8(n/10)
+                n % 10 == 8 -> 1 + count8(n/10)
+                else -> count8(n/10)
+            }
+        }
+    }
+}
+*/

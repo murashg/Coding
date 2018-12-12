@@ -22,3 +22,14 @@ public String stringClean(String str) {
   }
   return str.substring(0,1) + stringClean(str.substring(1));
 }
+
+/* kotlin
+fun stringClean(str: String): String {
+    return when {
+        str.length == 1 -> str
+        str.length == 2 && str[0] == str[1] -> str.substring(1)
+        str[0] == str[1] -> stringClean(str.substring(1))
+        else -> str[0] + stringClean(str.substring(1))
+    }
+}
+*/

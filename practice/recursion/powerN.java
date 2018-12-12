@@ -16,3 +16,10 @@ public int powerN(int base, int n) {
   int powah = base * powerN(base,n-1);
   return powah;
 }
+
+//kotlin
+/*
+fun powerN(base: Int, n: Int): Int {
+    return if (n == 0) 1 else base * powerN(base, n - 1)
+}
+*/
