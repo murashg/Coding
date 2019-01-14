@@ -132,33 +132,29 @@ class Priorities{
             //System.out.println(event);
             if (items[0].equals("ENTER")){
                 Student newStudent = new Student(Integer.parseInt(items[3]), items[1], Double.parseDouble(items[2]));
-                if (size == 0){
+                if (queue.size() == 0){
                     queue.add(newStudent);
-                    size++;
                 }else{
                     boolean inserted = false;
                     int i = 0;
                     while(!inserted){
-                        //System.out.println("size " + size + " i " + i);
-                        if (i == size){
+                        //System.out.println("size " + queue.size() + " i " + i);
+                        if (i == queue.size()){
                             queue.add(newStudent);
-                            size++;
                             inserted = true;
                         }else{
                             if (newStudent.compare(queue.get(i)) < 0){
                                 i++;
                             }else{
                                 queue.add(i,newStudent);
-                                size++;
                                 inserted = true;
                             }
                         }
                     }
                 }
-            }else if (size > 0){
+            }else if (queue.size() > 0){
                 queue.remove(0);
-                size--;
-                //System.out.println("size " + size);
+                //System.out.println("size " + queue.size());
             }
             /*
             System.out.println("Queue");
