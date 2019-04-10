@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b321790d-b467-457d-858a-3cb6f20dbb52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Aquarium/generics/Aquarium.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld/src/Buildings/BaseBuildingMaterial.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld/src/Buildings/Building.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld/src/Generics.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../aws/aws-lambda-ses-forwarder" beforeDir="false" afterPath="$PROJECT_DIR$/../../aws/aws-lambda-ses-forwarder" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../misc/double-pendulum" beforeDir="false" afterPath="$PROJECT_DIR$/../../misc/double-pendulum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aquarium/META-INF/Aquarium.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aquarium/META-INF/Aquarium.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloWorld/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/out/production/HelloWorld/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloWorld/out/production/HelloWorld/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/out/production/HelloWorld/BookKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloWorld/out/production/HelloWorld/BookKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/out/production/HelloWorld/META-INF/HelloWorld.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloWorld/out/production/HelloWorld/META-INF/HelloWorld.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/out/production/HelloWorld/eBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloWorld/out/production/HelloWorld/eBook.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HelloWorld/src/Book.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloWorld/src/Book.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -60,11 +71,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Aquarium/Decorations/Decorations.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Aquarium/generics/Aquarium.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -91,6 +111,7 @@
         <option value="$PROJECT_DIR$/src/Aquarium/main.kt" />
         <option value="$PROJECT_DIR$/src/Aquarium/inheritance.kt" />
         <option value="$PROJECT_DIR$/src/Aquarium/Decorations/Decorations.kt" />
+        <option value="$PROJECT_DIR$/src/Aquarium/generics/Aquarium.kt" />
       </list>
     </option>
   </component>
@@ -123,6 +144,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Aquarium" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Aquarium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Aquarium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Aquarium" type="462c0819:PsiDirectoryNode" />
+              <item name="generics" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -132,7 +160,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554868072222" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554910226176" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../HelloWorld" />
   </component>
   <component name="RunDashboard">
@@ -147,7 +175,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.Aquarium.Decorations.DecorationsKt">
+  <component name="RunManager" selected="Kotlin.Aquarium.generics.AquariumKt">
     <configuration name="Aquarium.Decorations.DecorationsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Aquarium" />
       <option name="VM_PARAMETERS" />
@@ -174,6 +202,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Aquarium.generics.AquariumKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Aquarium" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Aquarium.generics.AquariumKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InheritanceKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Aquarium" />
       <option name="VM_PARAMETERS" />
@@ -189,6 +230,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Aquarium.generics.AquariumKt" />
         <item itemvalue="Kotlin.Aquarium.Decorations.DecorationsKt" />
         <item itemvalue="Kotlin.InheritanceKt" />
         <item itemvalue="Kotlin.Aquarium.MainKt" />
@@ -280,6 +322,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aquarium/generics/Aquarium.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
         </state>
       </provider>
     </entry>
