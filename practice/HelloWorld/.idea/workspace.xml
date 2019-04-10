@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71795a6f-57f2-403e-819a-8cb428309195" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Aquarium/src/Aquarium/generics/Aquarium.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Buildings/BaseBuildingMaterial.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Buildings/Building.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aquarium/src/Aquarium/Plant.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aquarium/src/Aquarium/lambdas.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Direction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Engine.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SAM.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/breaks.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../aws/aws-lambda-ses-forwarder" beforeDir="false" afterPath="$PROJECT_DIR$/../../aws/aws-lambda-ses-forwarder" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../misc/double-pendulum" beforeDir="false" afterPath="$PROJECT_DIR$/../../misc/double-pendulum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Aquarium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Aquarium/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Aquarium/out/production/Aquarium/META-INF/Aquarium.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/../Aquarium/out/production/Aquarium/META-INF/Aquarium.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/BookKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/BookKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/eBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/eBook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Book.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/META-INF/HelloWorld.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/META-INF/HelloWorld.kotlin_module" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,31 +35,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Spice.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" lean-forward="true" selection-start-column="12" selection-end-line="8" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Spice/Spice.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Book.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
+            <state relative-caret-position="-75">
               <caret line="69" column="112" selection-start-line="69" selection-start-column="112" selection-end-line="69" selection-end-column="112" />
               <folding>
                 <element signature="n#!!block;n#eBook#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/breaks.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Game/Direction.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="70" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Game/Engine.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Game/main.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="86" lean-forward="true" selection-start-line="12" selection-start-column="86" selection-end-line="12" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SAM.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -82,38 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Buildings/Building.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dice.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/whatShouldIDo.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FortuneCookie.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -123,8 +123,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Enum" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -144,6 +145,13 @@
         <option value="$PROJECT_DIR$/src/Buildings/BaseBuildingMaterial.kt" />
         <option value="$PROJECT_DIR$/src/Generics.kt" />
         <option value="$PROJECT_DIR$/src/Buildings/Building.kt" />
+        <option value="$PROJECT_DIR$/src/breaks.kt" />
+        <option value="$PROJECT_DIR$/src/Game/Directions.kt" />
+        <option value="$PROJECT_DIR$/src/Game/Game.kt" />
+        <option value="$PROJECT_DIR$/src/Game/Direction.kt" />
+        <option value="$PROJECT_DIR$/src/Game/Engine.kt" />
+        <option value="$PROJECT_DIR$/src/Game/main.kt" />
+        <option value="$PROJECT_DIR$/src/SAM.kt" />
       </list>
     </option>
   </component>
@@ -179,7 +187,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554910226303" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554920307961" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -194,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.Buildings.BuildingKt">
+  <component name="RunManager" selected="Kotlin.Game.MainKt">
     <configuration name="BookKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld" />
       <option name="VM_PARAMETERS" />
@@ -203,6 +211,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="BookKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BreaksKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="HelloWorld" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="BreaksKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -221,27 +242,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiceKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="Game.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="DiceKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpiceKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="HelloWorld" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="SpiceKt" />
+      <option name="MAIN_CLASS_NAME" value="Game.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -261,19 +269,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.DiceKt" />
-      <item itemvalue="Kotlin.SpiceKt" />
       <item itemvalue="Kotlin.BookKt" />
       <item itemvalue="Kotlin.Spice.SpiceKt" />
       <item itemvalue="Kotlin.Buildings.BuildingKt" />
+      <item itemvalue="Kotlin.BreaksKt" />
+      <item itemvalue="Kotlin.Game.MainKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Game.MainKt" />
+        <item itemvalue="Kotlin.BreaksKt" />
         <item itemvalue="Kotlin.Buildings.BuildingKt" />
         <item itemvalue="Kotlin.BookKt" />
         <item itemvalue="Kotlin.Spice.SpiceKt" />
-        <item itemvalue="Kotlin.SpiceKt" />
-        <item itemvalue="Kotlin.DiceKt" />
       </list>
     </recent_temporary>
   </component>
@@ -309,14 +317,20 @@
       <option name="project" value="LOCAL" />
       <updated>1554868078141</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Generics, collections and the like">
+      <created>1554911460582</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554911460582</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="729" y="0" width="750" height="871" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22173913" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22173913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -324,8 +338,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37347767" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32882273" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37347767" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -346,7 +360,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="KOTLIN" />
-    <option name="LAST_COMMIT_MESSAGE" value="KOTLIN" />
+    <MESSAGE value="Generics, collections and the like" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generics, collections and the like" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/whatShouldIDo.kt">
@@ -391,16 +406,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Book.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="69" column="112" selection-start-line="69" selection-start-column="112" selection-end-line="69" selection-end-column="112" />
-          <folding>
-            <element signature="n#!!block;n#eBook#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Buildings/BaseBuildingMaterial.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -419,6 +424,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="69" column="112" selection-start-line="69" selection-start-column="112" selection-end-line="69" selection-end-column="112" />
+          <folding>
+            <element signature="n#!!block;n#eBook#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/breaks.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Direction.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="70" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Engine.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="86" lean-forward="true" selection-start-line="12" selection-start-column="86" selection-end-line="12" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SAM.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
         </state>
       </provider>
     </entry>
