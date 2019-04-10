@@ -7,18 +7,44 @@
               android:orientation="vertical"
               tools:context=".MainActivity">
 
-    <TextView
+    <ImageView
+            android:id="@+id/dice_image"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:textSize="30sp"
-            android:text="1" />
+            android:src="@drawable/dice_1"
+            android:contentDescription="@string/dice_contentDescription"/>
 
     <Button
             android:id="@+id/roll_button"
+            android:text="@string/roll"
+            android:textSize="12sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="@string/roll"/>
+            android:layout_gravity="center_horizontal"/>
+
+    <TextView
+            android:id="@+id/roll_list"
+            android:text="@string/roll_list"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"/>
+
+    <TextView
+            android:id="@+id/roll_sum"
+            android:text="@string/sum_text"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"/>
+
+    <Button
+            android:id="@+id/clear_button"
+            android:text="@string/reset_button"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"/>
 
 </LinearLayout>

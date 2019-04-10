@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Dice Roller</string>
     <string name="roll">Let\'s Roll</string>
+    <string name="dice_contentDescription">Will you roll a 6?</string>
+    <string name="roll_list">Roll List</string>
+    <string name="sum_button">Sum</string>
+    <string name="reset_button">Reset Rolls</string>
+    <string name="sum_text">Sum</string>
 </resources>
