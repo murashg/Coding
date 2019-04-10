@@ -14,19 +14,68 @@
     Your problem is to find an algorithm that would output which seat Josephus should choose given any Integer n
  */
 
+import java.util.LinkedList;
+import java.util.List;
+
 public class josephus {
 
-    private int algorithicSolution(){
-
+    private static int algorithmicSolution(int n){
+        List<Integer> soldiers = new LinkedList<Integer>();
+        int i = 1;
+        while (i <= n){
+            soldiers.add(i);
+            i++;
+        }
+        i = 0;
+        while (soldiers.size() > 1){
+            soldiers.remove(i+1);
+            i++;
+            if (i == soldiers.size()){
+                i = 0;
+            }else if (i == soldiers.size()-1) i = -1;
+        }
+        return soldiers.get(0);
     }
-    private int mathematicalSolution(){
+    /*
+     *   f(N) = 2L + 1 where N =2^M + L and 0 <= L < 2^M
+     */
+    private static int mathematicalSolution(int n){
+        // find value of L for the equation
+        int valueOfL = n - Integer.highestOneBit(n);
+        int safePosition = 2 * valueOfL  + 1;
 
+        return safePosition;
     }
-    private int blackMagic(){
 
+    private static int blackMagic(int n){
+        return ~Integer.highestOneBit(n*2) & ((n<<1) | 1);
+    }
+
+    private static void test(int n){
+        System.out.println("TEST "+n);
+        long startTime,endTime,duration;
+        startTime = System.nanoTime();
+        System.out.println("algorithm "+algorithmicSolution(n));
+        endTime = System.nanoTime();
+        duration = (endTime - startTime);
+        System.out.println("Method took: " + duration+"ns");
+        startTime = System.nanoTime();
+        System.out.println("maths "+mathematicalSolution(n));
+        endTime = System.nanoTime();
+        duration = (endTime - startTime);
+        System.out.println("Method took: " + duration+"ns");
+        startTime = System.nanoTime();
+        System.out.println("blackmagic "+blackMagic(n));
+        endTime = System.nanoTime();
+        duration = (endTime - startTime);
+        System.out.println("Method took: " + duration+"ns");
+        System.out.println("\n");
     }
 
     public static void main(String[] args){
-
+        test(32);
+        test(45);
+        test(1547);
+        test(12398);
     }
 }
