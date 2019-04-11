@@ -2,45 +2,37 @@ package com.example.diceroller
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import android.widget.ImageView
-import android.widget.TextView
 import java.util.Random
+import android.databinding.DataBindingUtil
+import com.example.diceroller.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
     //views should be singleton for efficiency
-    private lateinit var diceImage: ImageView
-    private lateinit var rollListView: TextView
-    private lateinit var rollSumView: TextView
-    private val rollList = mutableListOf<Int>()
+    private lateinit var binding: ActivityMainBinding
+    private val rollHistory = mutableListOf<Int>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        //init buttons and views
-        val rollButton: Button = findViewById(R.id.roll_button)
-        val resetButton: Button = findViewById(R.id.clear_button)
-        diceImage = findViewById(R.id.dice_image)
-        rollListView = findViewById(R.id.roll_list)
-        rollSumView = findViewById(R.id.roll_sum)
-
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
         //onClickListeners
-        rollButton.setOnClickListener {
-            rollDice()
-        }
-        //implement reset button functionality
-        resetButton.setOnClickListener {
-            rollList.clear()
-            rollListView.text = getString(R.string.roll_list)
-            rollSumView.text = getString(R.string.sum_text)
+        binding.apply {
+            rollButton.setOnClickListener {
+                rollDice()
+            }
+            //implement clear button functionality
+            resetButton.setOnClickListener {
+                rollHistory.clear()
+                rollList.text = getString(R.string.roll_list)
+                rollSum.text = getString(R.string.sum_text)
+            }
         }
     }
 
     private fun rollDice() {
         //roll dice and add to list
         val roll = Random().nextInt(6) + 1
-        rollList.add(roll)
+        rollHistory.add(roll)
         //choose image to display
         val drawableResource = when(roll){
             1 -> R.drawable.dice_1
@@ -51,8 +43,10 @@ class MainActivity : AppCompatActivity() {
             else -> R.drawable.dice_6
         }
         //refresh views
-        diceImage.setImageResource(drawableResource)
-        rollListView.text = rollList.toString()
-        rollSumView.text = rollList.sum().toString()
+        binding.apply {
+            diceImage.setImageResource(drawableResource)
+            rollList.text = rollHistory.toString()
+            rollSum.text = rollHistory.sum().toString()
+        }
     }
 }
