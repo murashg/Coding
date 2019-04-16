@@ -45,7 +45,7 @@ fun rankMovies(moviePairs: List<Pair<String,String>>): List<String>{
     var movie: Movie?
     //add the movies without children to the result list and remove those from map
     while(map.any()){
-        lowestRankMovies = map.filter { (k, v) -> v.lowerRankedMovies.isEmpty() }.keys.toList().sorted().reversed()
+        lowestRankMovies = map.filter { (k, v) -> v.lowerRankedMovies.isEmpty() }.keys.sortedDescending()
         result.addAll(lowestRankMovies)
         for (title in lowestRankMovies) {
             movie = map[title]
