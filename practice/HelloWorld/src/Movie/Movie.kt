@@ -5,7 +5,8 @@ package Movie
     Movies in a tie are sorted lexiconically.
 
 */
-class Movie(val title: String, val lowerRankedMovies: MutableSet<Movie> = mutableSetOf()){
+
+class Movie(val lowerRankedMovies: MutableSet<Movie> = mutableSetOf()){
     //cheeky operator overrides
     operator fun plus(movie: Movie): Movie{
         lowerRankedMovies += movie
@@ -20,7 +21,7 @@ class Movie(val title: String, val lowerRankedMovies: MutableSet<Movie> = mutabl
     @param: list of movie comparison pairs: List<Pair<String,String>>
     @return: sorted ranked list of movies: List<String>
 
-    create graph of movies where movie has a title and a set of movies ranked below it
+    create graph of movies where movie has a set of movies ranked below it
     use map to implement graph for O(1) lookup, only 1 movie object is created for each title, children are
     pointers.  Once map is created we loop while the graph is not empty, adding the movies without children to
     our result list in reverse lexocanonical order. These operations take O(2n + nlgn) at worst case
@@ -35,9 +36,9 @@ fun rankMovies(moviePairs: List<Pair<String,String>>): List<String>{
     val map = mutableMapOf<String, Movie>()
     val result = mutableListOf<String>()
     //for each movie comparison pair, add the first movie to the map with it's child being the second
-    for (moviePair in moviePairs) map[moviePair.first] = map.getOrDefault(moviePair.first,Movie(moviePair.first)) + map.getOrElse(moviePair.second
+    for (moviePair in moviePairs) map[moviePair.first] = map.getOrDefault(moviePair.first,Movie()) + map.getOrElse(moviePair.second
     ) {
-        map[moviePair.second] = Movie(moviePair.second)
+        map[moviePair.second] = Movie()
         map[moviePair.second]
     }!!
     var lowestRankMovies: List<String>
