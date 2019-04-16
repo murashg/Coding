@@ -6,6 +6,7 @@ package Movie
 
 */
 class Movie(val title: String, val children: MutableSet<Movie> = mutableSetOf()){
+    //cheeky operator overrides
     operator fun plus(movie: Movie): Movie{
         children += movie
         return this
@@ -14,15 +15,28 @@ class Movie(val title: String, val children: MutableSet<Movie> = mutableSetOf())
         children.remove(children.find{ it.title == movie})
     }
 }
+/*
 
-fun rankMovies(moviePairs: List<List<String>>): List<String>{
+    @param: list of movie comparison pairs: List<Pair<String,String>>
+    @return: sorted ranked list of movies: List<String>
+
+    create graph of movies where movie has a title and children set of movies ranked below the movie
+    use map to implement graph for O(1) lookup, only 1 movie object is created for each title, children are
+    pointers.  Once map is created we loop while the map has movies, adding the movies without children to
+    our result list in reverse lexocanonical order. These operations take O(2n + nlgn) at worst case
+    Then we have to remove the lowest ranked movies from our map and from movies with them as children O(nlgn)
+    Finally since movies are added with the lowest rank first, we return our result list reversed.
+    Runtime: O(3n + 2nlgn)
+    Space: O(n) n = number of unique movies
+*/
+fun rankMovies(moviePairs: List<Pair<String,String>>): List<String>{
     val map = mutableMapOf<String, Movie>()
     val result = mutableListOf<String>()
-    //for each movie, add the first movie to the map with it's child being the second
-    for (moviePair in moviePairs) map[moviePair[0]] = map.getOrDefault(moviePair[0],Movie(moviePair[0])) + map.getOrElse(moviePair[1]
+    //for each movie comparison pair, add the first movie to the map with it's child being the second
+    for (moviePair in moviePairs) map[moviePair.first] = map.getOrDefault(moviePair.first,Movie(moviePair.first)) + map.getOrElse(moviePair.second
     ) {
-        map[moviePair[1]] = Movie(moviePair[1])
-        map[moviePair[1]]
+        map[moviePair.second] = Movie(moviePair.second)
+        map[moviePair.second]
     }!!
 
     //add the movies without children to the result list and remove those from map
@@ -38,6 +52,6 @@ fun rankMovies(moviePairs: List<List<String>>): List<String>{
 }
 
 fun main(args: Array<String>) {
-    val test = listOf(listOf("aladdin", "batman"), listOf("batman", "iron man"), listOf("jerassic park", "iron man"), listOf("spongebob", "men in black"), listOf("aladdin", "jerassic park"))
+    val test = listOf("aladdin" to "batman", "batman" to "iron man", "jerassic park" to "iron man", "spongebob" to "men in black", "aladdin" to "jerassic park")
     print(rankMovies(test))
 }

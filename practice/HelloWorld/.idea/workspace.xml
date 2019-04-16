@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71795a6f-57f2-403e-819a-8cb428309195" name="Default Changelist" comment="Finished Movie sorter.">
+    <list default="true" id="71795a6f-57f2-403e-819a-8cb428309195" name="Default Changelist" comment="override operators">
       <change beforePath="$PROJECT_DIR$/../../aws/aws-lambda-ses-forwarder" beforeDir="false" afterPath="$PROJECT_DIR$/../../aws/aws-lambda-ses-forwarder" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../misc/double-pendulum" beforeDir="false" afterPath="$PROJECT_DIR$/../../misc/double-pendulum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -76,8 +76,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Movie/Movie.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="352">
+              <caret line="54" column="97" lean-forward="true" selection-start-line="54" selection-start-column="97" selection-end-line="54" selection-end-column="97" />
             </state>
           </provider>
         </entry>
@@ -180,7 +180,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555444763428" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555446265383" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
@@ -332,7 +332,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555444111855</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="override operators">
+      <created>1555444779785</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1555444779785</updated>
+    </task>
+    <task id="LOCAL-00008" summary="override operators">
+      <created>1555444936434</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1555444936434</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -348,8 +362,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32882273" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37265417" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3994638" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37265417" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994638" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -372,19 +386,8 @@
     <MESSAGE value="Generics, collections and the like" />
     <MESSAGE value="More work on the Conche" />
     <MESSAGE value="Finished Movie sorter." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Movie sorter." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/Movie/Movie.kt</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="override operators" />
+    <option name="LAST_COMMIT_MESSAGE" value="override operators" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/whatShouldIDo.kt">
@@ -497,8 +500,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Movie/Movie.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="352">
+          <caret line="54" column="97" lean-forward="true" selection-start-line="54" selection-start-column="97" selection-end-line="54" selection-end-column="97" />
         </state>
       </provider>
     </entry>
