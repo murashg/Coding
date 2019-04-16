@@ -5,14 +5,14 @@ package Movie
     Movies in a tie are sorted lexiconically.
 
 */
-class Movie(val title: String, val children: MutableSet<Movie> = mutableSetOf()){
+class Movie(val title: String, val lowerRankedMovies: MutableSet<Movie> = mutableSetOf()){
     //cheeky operator overrides
     operator fun plus(movie: Movie): Movie{
-        children += movie
+        lowerRankedMovies += movie
         return this
     }
     operator fun minusAssign(movie: String){
-        children.remove(children.find{ it.title == movie})
+        lowerRankedMovies.remove(lowerRankedMovies.find{ it.title == movie})
     }
 }
 /*
@@ -20,9 +20,9 @@ class Movie(val title: String, val children: MutableSet<Movie> = mutableSetOf())
     @param: list of movie comparison pairs: List<Pair<String,String>>
     @return: sorted ranked list of movies: List<String>
 
-    create graph of movies where movie has a title and children set of movies ranked below the movie
+    create graph of movies where movie has a title and a set of movies ranked below it
     use map to implement graph for O(1) lookup, only 1 movie object is created for each title, children are
-    pointers.  Once map is created we loop while the map has movies, adding the movies without children to
+    pointers.  Once map is created we loop while the graph is not empty, adding the movies without children to
     our result list in reverse lexocanonical order. These operations take O(2n + nlgn) at worst case
     Then we have to remove the lowest ranked movies from our map and from movies with them as children O(nlgn)
     Finally since movies are added with the lowest rank first, we return our result list reversed.
@@ -41,10 +41,10 @@ fun rankMovies(moviePairs: List<Pair<String,String>>): List<String>{
 
     //add the movies without children to the result list and remove those from map
     while(map.any()){
-        val lowestRankMovies = map.filter { (k, v) -> v.children.isEmpty() }.keys.toList().sorted().reversed()
+        val lowestRankMovies = map.filter { (k, v) -> v.lowerRankedMovies.isEmpty() }.keys.toList().sorted().reversed()
         result.addAll(lowestRankMovies)
         for (movie in lowestRankMovies) {
-            map.filter { (k, v) -> v.children.find { it.title == movie } != null }.forEach { (k, v) -> v -= movie }
+            map.filter { (k, v) -> v.lowerRankedMovies.find { it.title == movie } != null }.forEach { (k, v) -> v -= movie }
             map -= movie
         }
     }
