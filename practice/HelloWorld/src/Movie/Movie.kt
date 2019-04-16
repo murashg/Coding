@@ -40,10 +40,10 @@ fun rankMovies(moviePairs: List<Pair<String,String>>): List<String>{
         map[moviePair.second] = Movie(moviePair.second)
         map[moviePair.second]
     }!!
-
+    var lowestRankMovies: List<String>
     //add the movies without children to the result list and remove those from map
     while(map.any()){
-        val lowestRankMovies = map.filter { (k, v) -> v.lowerRankedMovies.isEmpty() }.keys.toList().sorted().reversed()
+        lowestRankMovies = map.filter { (k, v) -> v.lowerRankedMovies.isEmpty() }.keys.toList().sorted().reversed()
         result.addAll(lowestRankMovies)
         for (title in lowestRankMovies) {
             //get movies where children contains title and remove title from children
