@@ -43,9 +43,9 @@ fun rankMovies(moviePairs: List<Pair<String,String>>): List<String>{
     while(map.any()){
         val lowestRankMovies = map.filter { (k, v) -> v.lowerRankedMovies.isEmpty() }.keys.toList().sorted().reversed()
         result.addAll(lowestRankMovies)
-        for (movie in lowestRankMovies) {
-            map.filter { (k, v) -> v.lowerRankedMovies.find { it.title == movie } != null }.forEach { (k, v) -> v -= movie }
-            map -= movie
+        for (title in lowestRankMovies) {
+            map.filter { (k, v) -> v.lowerRankedMovies.find { it.title == title } != null }.forEach { (k, v) -> v -= title }
+            map -= title
         }
     }
     return result.toList().reversed()

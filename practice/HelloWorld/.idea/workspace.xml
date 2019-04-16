@@ -76,8 +76,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Movie/Movie.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
+            <state relative-caret-position="221">
+              <caret line="46" column="79" selection-start-line="46" selection-start-column="79" selection-end-line="46" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -180,7 +180,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555446416107" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555446682105" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
@@ -353,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555446409003</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Rename children to lowerRankedMovies">
+      <created>1555446682020</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1555446682020</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -395,7 +402,8 @@
     <MESSAGE value="Finished Movie sorter." />
     <MESSAGE value="override operators" />
     <MESSAGE value="Change input of rankMovies to use Pairs instead of string lists.  Fits with the problem using movie comparison pairs.  Also added comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change input of rankMovies to use Pairs instead of string lists.  Fits with the problem using movie comparison pairs.  Also added comments" />
+    <MESSAGE value="Rename children to lowerRankedMovies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename children to lowerRankedMovies" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/whatShouldIDo.kt">
@@ -508,8 +516,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Movie/Movie.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
+        <state relative-caret-position="221">
+          <caret line="46" column="79" selection-start-line="46" selection-start-column="79" selection-end-line="46" selection-end-column="79" />
         </state>
       </provider>
     </entry>
