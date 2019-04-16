@@ -18,12 +18,14 @@ class Movie(val title: String, val children: MutableSet<Movie> = mutableSetOf())
 fun rankMovies(moviePairs: List<List<String>>): List<String>{
     val map = mutableMapOf<String, Movie>()
     val result = mutableListOf<String>()
+    //for each movie, add the first movie to the map with it's child being the second
     for (moviePair in moviePairs) map[moviePair[0]] = map.getOrDefault(moviePair[0],Movie(moviePair[0])) + map.getOrElse(moviePair[1]
     ) {
         map[moviePair[1]] = Movie(moviePair[1])
         map[moviePair[1]]
     }!!
 
+    //add the movies without children to the result list and remove those from map
     while(map.any()){
         val lowestRankMovies = map.filter { (k, v) -> v.children.isEmpty() }.keys.toList().sorted().reversed()
         result.addAll(lowestRankMovies)
