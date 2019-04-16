@@ -40,3 +40,7 @@ enum class Fighting_Style{
 enum class Features {
     Second_Wind
 }
+
+enum class Spells {
+    Fireball
+}
