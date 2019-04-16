@@ -26,6 +26,8 @@ class Movie(val title: String, val lowerRankedMovies: MutableSet<Movie> = mutabl
     our result list in reverse lexocanonical order. These operations take O(2n + nlgn) at worst case
     Then we have to remove the lowest ranked movies from our map and from movies with them as children O(nlgn)
     Finally since movies are added with the lowest rank first, we return our result list reversed.
+    Note - without sorting runtime would be O(n)
+    Note - code is very kotliny with each line doing a lot of logic, for simplified understanding see comments
     Runtime: O(3n + 2nlgn)
     Space: O(n) n = number of unique movies
 */
@@ -44,6 +46,7 @@ fun rankMovies(moviePairs: List<Pair<String,String>>): List<String>{
         val lowestRankMovies = map.filter { (k, v) -> v.lowerRankedMovies.isEmpty() }.keys.toList().sorted().reversed()
         result.addAll(lowestRankMovies)
         for (title in lowestRankMovies) {
+            //get movies where children contains title and remove title from children
             map.filter { (k, v) -> v.lowerRankedMovies.find { it.title == title } != null }.forEach { (k, v) -> v -= title }
             map -= title
         }
