@@ -11,8 +11,8 @@ class Movie(val title: String, val lowerRankedMovies: MutableSet<Movie> = mutabl
         lowerRankedMovies += movie
         return this
     }
-    operator fun minusAssign(movie: String){
-        lowerRankedMovies.remove(lowerRankedMovies.find{ it.title == movie})
+    operator fun minusAssign(movie: Movie?){
+        lowerRankedMovies.remove(movie)
     }
 }
 /*
@@ -41,13 +41,15 @@ fun rankMovies(moviePairs: List<Pair<String,String>>): List<String>{
         map[moviePair.second]
     }!!
     var lowestRankMovies: List<String>
+    var movie: Movie?
     //add the movies without children to the result list and remove those from map
     while(map.any()){
         lowestRankMovies = map.filter { (k, v) -> v.lowerRankedMovies.isEmpty() }.keys.toList().sorted().reversed()
         result.addAll(lowestRankMovies)
         for (title in lowestRankMovies) {
+            movie = map[title]
             //get movies where children contains title and remove title from children
-            map.filter { (k, v) -> v.lowerRankedMovies.find { it.title == title } != null }.forEach { (k, v) -> v -= title }
+            map.filter { (k, v) -> v.lowerRankedMovies.contains(movie) }.forEach { (k, v) -> v -= movie }
             map -= title
         }
     }

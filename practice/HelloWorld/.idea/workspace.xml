@@ -76,8 +76,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Movie/Movie.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="48" column="38" lean-forward="true" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
+            <state relative-caret-position="287">
+              <caret line="52" column="24" lean-forward="true" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -180,7 +180,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555448167672" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555448801021" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
@@ -374,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555447942952</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Make LowestRankMovies a var so vals aren't being declared every loop">
+      <created>1555448220142</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1555448220142</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -419,7 +426,8 @@
     <MESSAGE value="Rename children to lowerRankedMovies" />
     <MESSAGE value="Rename movie to title in removal for loop" />
     <MESSAGE value="Comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comments" />
+    <MESSAGE value="Make LowestRankMovies a var so vals aren't being declared every loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make LowestRankMovies a var so vals aren't being declared every loop" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/whatShouldIDo.kt">
@@ -532,8 +540,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Movie/Movie.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="48" column="38" lean-forward="true" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
+        <state relative-caret-position="287">
+          <caret line="52" column="24" lean-forward="true" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
         </state>
       </provider>
     </entry>
