@@ -21,7 +21,7 @@ class Movie(val lowerRankedMovies: MutableSet<Movie> = mutableSetOf()){
     @param: list of movie comparison pairs: List<Pair<String,String>>
     @return: sorted ranked list of movies: List<String>
 
-    create graph of movies where movie has a set of movies ranked below it
+    create map of movies where movie has a set of movies ranked below it
     use map to implement graph for O(1) lookup, only 1 movie object is created for each title, children are
     pointers.  Once map is created we loop while the graph is not empty, adding the movies without children to
     our result list in reverse lexocanonical order. These operations take O(2n + nlgn) at worst case
