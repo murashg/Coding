@@ -12,7 +12,7 @@ class Movie(val lowerRankedMovies: MutableSet<Movie> = mutableSetOf()){
         lowerRankedMovies += movie
         return this
     }
-    operator fun minusAssign(movie: Movie?){
+    operator fun minusAssign(movie: Movie?) {
         lowerRankedMovies.remove(movie)
     }
 }
@@ -58,6 +58,6 @@ fun rankMovies(moviePairs: List<Pair<String,String>>): List<String>{
 }
 
 fun main(args: Array<String>) {
-    val test = listOf("aladdin" to "batman", "batman" to "iron man", "jerassic park" to "iron man", "spongebob" to "men in black", "aladdin" to "jerassic park")
+    val test = listOf("aladdin" to "batman", "batman" to "iron man", "jerassic park" to "iron man", "back to the future" to "men in black", "aladdin" to "jerassic park")
     print(rankMovies(test))
 }
