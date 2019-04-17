@@ -39,22 +39,27 @@ fun rankMovies(moviePairs: List<Pair<String,String>>): List<String>{
     val result = mutableListOf<String>()
 
     //for each movie comparison pair, add the first movie to the map with it's child being the second
-    for (moviePair in moviePairs) map[moviePair.first] = map.getOrDefault(moviePair.first,Movie()) + map.getOrElse(moviePair.second
-    ) {
-        map[moviePair.second] = Movie()
-        map[moviePair.second]
-    }!!
+    for (moviePair in moviePairs)
+        map[moviePair.first] = map.getOrDefault(moviePair.first,Movie()) +
+                map.getOrElse(moviePair.second)
+                {
+                    map[moviePair.second] = Movie()
+                    map[moviePair.second]
+                }!!
     var lowestRankMovies: List<String>
     var movie: Movie?
     //add the movies without children to the result list and remove those from map
 
     while(map.any()){
-        lowestRankMovies = map.filter { (_, v) -> v.lowerRankedMovies.isEmpty() }.keys.sortedDescending()
+        lowestRankMovies =
+                map.filter { (_, v) -> v.lowerRankedMovies.isEmpty() }
+                    .keys.sortedDescending()
         result.addAll(lowestRankMovies)
         for (title in lowestRankMovies) {
             movie = map[title]
             //get movies where children contains title and remove title from children
-            map.filter { (_, v) -> v.lowerRankedMovies.contains(movie) }.forEach { (_, v) -> v -= movie }
+            map.filter { (_, v) -> v.lowerRankedMovies.contains(movie) }
+                .forEach { (_, v) -> v -= movie }
             map -= title
         }
     }
