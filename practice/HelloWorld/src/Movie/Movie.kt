@@ -1,12 +1,10 @@
 package Movie
-
 /*
     A movie critic likes to review movies by comparing them side-by-side. Given a list of movie comparison pairs,
     in which the first element is better than the second, print out a ranking of movies from best-to-worst.
     Movies in a tie are sorted lexiconically.
 
 */
-
 class Movie(val lowerRankedMovies: MutableSet<Movie> = mutableSetOf()){
     //cheeky operator overrides
     operator fun plus(movie: Movie): Movie{
@@ -17,9 +15,7 @@ class Movie(val lowerRankedMovies: MutableSet<Movie> = mutableSetOf()){
         lowerRankedMovies.remove(movie)
     }
 }
-
 /*
-
     @param: list of movie comparison pairs: List<Pair<String,String>>
     @return: sorted ranked list of movies: List<String>
 
@@ -49,7 +45,6 @@ fun rankMovies(moviePairs: List<Pair<String,String>>): List<String>{
     var lowestRankMovies: List<String>
     var movie: Movie?
     //add the movies without children to the result list and remove those from map
-
     while(map.any()){
         lowestRankMovies =
                 map.filter { (_, v) -> v.lowerRankedMovies.isEmpty() }
@@ -65,8 +60,14 @@ fun rankMovies(moviePairs: List<Pair<String,String>>): List<String>{
     }
     return result.toList().reversed()
 }
-
 fun main(args: Array<String>) {
-    val test = listOf("aladdin" to "batman", "batman" to "iron man", "jerassic park" to "iron man", "back to the future" to "men in black", "aladdin" to "jerassic park")
+    val test =
+        listOf(
+            "aladdin" to "batman",
+            "batman" to "iron man",
+            "jerassic park" to "iron man",
+            "back to the future" to "men in black",
+            "aladdin" to "jerassic park"
+        )
     print(rankMovies(test)) //[aladdin, back to the future, batman, jerassic park, iron man, men in black]
 }
