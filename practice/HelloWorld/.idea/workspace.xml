@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/../../aws/aws-lambda-ses-forwarder" beforeDir="false" afterPath="$PROJECT_DIR$/../../aws/aws-lambda-ses-forwarder" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../misc/double-pendulum" beforeDir="false" afterPath="$PROJECT_DIR$/../../misc/double-pendulum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Movie/Movie.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Movie/Movie.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Movie/Movie.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            <state relative-caret-position="488">
+              <caret line="67" column="42" lean-forward="true" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -184,7 +183,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555471784274" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555472619792" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
@@ -275,8 +274,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Movie.StreetLightsKt" />
         <item itemvalue="Kotlin.Movie.MovieKt" />
+        <item itemvalue="Kotlin.Movie.StreetLightsKt" />
         <item itemvalue="Kotlin.Game.MainKt" />
         <item itemvalue="Kotlin.BreaksKt" />
         <item itemvalue="Kotlin.Buildings.BuildingKt" />
@@ -434,7 +433,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555469638522</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Formatting is key">
+      <created>1555471783272</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1555471783272</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Formatting is key">
+      <created>1555471925418</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1555471925419</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -487,7 +500,8 @@
     <MESSAGE value="Not really a graph" />
     <MESSAGE value="Remove redundancy" />
     <MESSAGE value="k -&gt; _ because key is not used" />
-    <option name="LAST_COMMIT_MESSAGE" value="k -&gt; _ because key is not used" />
+    <MESSAGE value="Formatting is key" />
+    <option name="LAST_COMMIT_MESSAGE" value="Formatting is key" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/whatShouldIDo.kt">
@@ -607,8 +621,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Movie/Movie.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        <state relative-caret-position="488">
+          <caret line="67" column="42" lean-forward="true" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
         </state>
       </provider>
     </entry>

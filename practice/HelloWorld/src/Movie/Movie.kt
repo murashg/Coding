@@ -65,7 +65,7 @@ fun main(args: Array<String>) {
         listOf(
             "aladdin" to "batman",
             "batman" to "iron man",
-            "jerassic park" to "iron man",
+            "jurassic park" to "iron man",
             "back to the future" to "men in black",
             "aladdin" to "jerassic park"
         )
