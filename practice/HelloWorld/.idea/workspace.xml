@@ -2,9 +2,102 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71795a6f-57f2-403e-819a-8cb428309195" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Android/DiceRoller/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/app/src/androidTest/java/com/example/plusminus/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/app/src/main/java/com/example/plusminus/Game/Engine.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/app/src/main/java/com/example/plusminus/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/app/src/main/res/font/russo_one.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/app/src/main/res/values/font_certs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/app/src/main/res/values/preloaded_fonts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/app/src/test/java/com/example/plusminus/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/PlusMinus/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/theCoralConche/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CheapestFlight.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PlusMinus/Game.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/buddyString.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/DiceRoller/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/DiceRoller/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../aws/aws-lambda-ses-forwarder" beforeDir="false" afterPath="$PROJECT_DIR$/../../aws/aws-lambda-ses-forwarder" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../misc/double-pendulum" beforeDir="false" afterPath="$PROJECT_DIR$/../../misc/double-pendulum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/AMSKt$dirtyProcessor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/AMSKt$dirtyProcessor$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/AMSKt$dirtyProcessor$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/AMSKt$dirtyProcessor$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/AMSKt$waterFilter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/AMSKt$waterFilter$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/AMSKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/AMSKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/Book$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Book$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/BookKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/BookKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/BreaksKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/BreaksKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/Buildings/BaseBuildingMaterial.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Buildings/BaseBuildingMaterial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/Buildings/Brick.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Buildings/Brick.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/Buildings/Building.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Buildings/Building.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/Buildings/BuildingKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Buildings/BuildingKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/Buildings/Wood.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Buildings/Wood.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/DiceKt$rollDice$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/DiceKt$rollDice$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/DiceKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/DiceKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/FortuneCookieKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/FortuneCookieKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/Game/Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Game/Direction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/Game/DirectionKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Game/DirectionKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/Game/Engine$east$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Game/Engine$east$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/Game/Engine$end$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Game/Engine$end$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/Game/Engine$north$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Game/Engine$north$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/Game/Engine$south$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Game/Engine$south$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/Game/Engine$west$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Game/Engine$west$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/Game/Engine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Game/Engine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/Game/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Game/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/META-INF/HelloWorld.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/META-INF/HelloWorld.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/Puppy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Puppy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/SimpleSpice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/SimpleSpice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/Skateboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Skateboard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/Spice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Spice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/Spice/Curry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Spice/Curry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/Spice/GreenSpiceColor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Spice/GreenSpiceColor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/Spice/Grinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Spice/Grinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/Spice/MakePowder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Spice/MakePowder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/Spice/RedSpiceColor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Spice/RedSpiceColor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/Spice/Spice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Spice/Spice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/Spice/SpiceColor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Spice/SpiceColor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/Spice/SpiceContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Spice/SpiceContainer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/Spice/SpiceKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Spice/SpiceKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/Spice/YellowSpiceColor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Spice/YellowSpiceColor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/SpiceKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/SpiceKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/WhatShouldIDoKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/WhatShouldIDoKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/eBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/eBook.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,42 +109,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/breaks.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Game/Direction.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="70" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Game/Engine.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Game/main.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="86" selection-start-line="12" selection-start-column="86" selection-end-line="12" selection-end-column="86" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SAM.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
@@ -60,11 +117,50 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Movie/Movie.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="67" column="42" lean-forward="true" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
+            <state relative-caret-position="200">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CheapestFlight.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PlusMinus/Game.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="72" selection-start-line="72" selection-end-line="72" />
+              <folding>
+                <element signature="e#19#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/buddyString.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Spice.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -72,7 +168,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Movie/StreetLights.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-39">
+            <state relative-caret-position="391">
               <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
             </state>
           </provider>
@@ -126,7 +222,6 @@
         <option value="$PROJECT_DIR$/src/whatShouldIDo.kt" />
         <option value="$PROJECT_DIR$/src/AMS.kt" />
         <option value="$PROJECT_DIR$/src/dice.kt" />
-        <option value="$PROJECT_DIR$/src/Spice.kt" />
         <option value="$PROJECT_DIR$/src/Spice/Spice.kt" />
         <option value="$PROJECT_DIR$/src/Book.kt" />
         <option value="$PROJECT_DIR$/src/Buildings/BaseBuildingMaterial.kt" />
@@ -141,13 +236,17 @@
         <option value="$PROJECT_DIR$/src/SAM.kt" />
         <option value="$PROJECT_DIR$/src/Movie/StreetLights.kt" />
         <option value="$PROJECT_DIR$/src/Movie/Movie.kt" />
+        <option value="$PROJECT_DIR$/src/Spice.kt" />
+        <option value="$PROJECT_DIR$/src/PlusMinus/Game.kt" />
+        <option value="$PROJECT_DIR$/src/buddyString.kt" />
+        <option value="$PROJECT_DIR$/src/CheapestFlight.kt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="201" />
-    <option name="y" value="-25" />
-    <option name="width" value="939" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="782" />
+    <option name="y" value="-13" />
+    <option name="width" value="940" />
     <option name="height" value="1090" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -156,8 +255,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,20 +267,16 @@
               <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Movie" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555472619792" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556116929746" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
@@ -199,41 +292,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.Movie.MovieKt">
-    <configuration name="BreaksKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.CheapestFlightKt">
+    <configuration name="BuddyStringKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="BreaksKt" />
+      <option name="MAIN_CLASS_NAME" value="BuddyStringKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Buildings.BuildingKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="CheapestFlightKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="HelloWorld" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Buildings.BuildingKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Game.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="HelloWorld" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Game.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="CheapestFlightKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -265,20 +345,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PlusMinus.GameKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="HelloWorld" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="PlusMinus.GameKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Kotlin.Buildings.BuildingKt" />
-      <item itemvalue="Kotlin.BreaksKt" />
-      <item itemvalue="Kotlin.Game.MainKt" />
       <item itemvalue="Kotlin.Movie.MovieKt" />
       <item itemvalue="Kotlin.Movie.StreetLightsKt" />
+      <item itemvalue="Kotlin.PlusMinus.GameKt" />
+      <item itemvalue="Kotlin.BuddyStringKt" />
+      <item itemvalue="Kotlin.CheapestFlightKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.CheapestFlightKt" />
+        <item itemvalue="Kotlin.BuddyStringKt" />
+        <item itemvalue="Kotlin.PlusMinus.GameKt" />
         <item itemvalue="Kotlin.Movie.MovieKt" />
         <item itemvalue="Kotlin.Movie.StreetLightsKt" />
-        <item itemvalue="Kotlin.Game.MainKt" />
-        <item itemvalue="Kotlin.BreaksKt" />
-        <item itemvalue="Kotlin.Buildings.BuildingKt" />
       </list>
     </recent_temporary>
   </component>
@@ -447,14 +540,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555471925419</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Misspelt Jerasik">
+      <created>1555472666177</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1555472666177</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1486" height="878" extended-state="6" />
+    <frame x="-7" y="-7" width="1486" height="878" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11079944" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.113604486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -463,15 +563,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32882273" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37265417" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994638" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3766756" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3941019" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3292683" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32841823" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32707775" />
+      <window_info anchor="right" id="Kotlin Bytecode" weight="0.15918654" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -501,7 +602,44 @@
     <MESSAGE value="Remove redundancy" />
     <MESSAGE value="k -&gt; _ because key is not used" />
     <MESSAGE value="Formatting is key" />
-    <option name="LAST_COMMIT_MESSAGE" value="Formatting is key" />
+    <MESSAGE value="Misspelt Jerasik" />
+    <option name="LAST_COMMIT_MESSAGE" value="Misspelt Jerasik" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/PlusMinus/Game.kt</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/PlusMinus/Game.kt</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/buddyString.kt</url>
+          <line>2</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/CheapestFlight.kt</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/CheapestFlight.kt</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/whatShouldIDo.kt">
@@ -515,13 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Spice.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-line="8" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -584,6 +715,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/SAM.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Movie/StreetLights.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Generics.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -605,24 +750,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SAM.kt">
+    <entry file="file://$PROJECT_DIR$/src/Spice.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        <state relative-caret-position="51">
+          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Movie/StreetLights.kt">
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/Random.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-39">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        <state relative-caret-position="170">
+          <caret line="387" selection-start-line="387" selection-end-line="387" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PlusMinus/Game.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="e#19#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/buddyString.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Movie/Movie.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="67" column="42" lean-forward="true" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
+        <state relative-caret-position="200">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CheapestFlight.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
