@@ -26,9 +26,9 @@ Print the total number of matching pairs of socks that John can sell.
 
 fun main() {
     val ar = arrayOf(1,2,3,4,5,5,6)
-    val map = HashMap<Int, Int>()
-    for (i in ar) if (!map.containsKey(i)) map[i] = 1 else map[i] = map[i]!! + 1
+    val map = mutableMapOf<Int, Int>()
+    for (i in ar) map[i] = map[i]?.plus(1) ?: 1
     var count = 0
-    for (`val` in map.values) count += `val` / 2
-    println(count)
+    for (v in map.values) count += v / 2
+    print(count)
 }
