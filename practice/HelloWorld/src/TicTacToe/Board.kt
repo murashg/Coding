@@ -54,6 +54,7 @@ data class Board(val board: List<MutableList<Int>> = listOf(mutableListOf(4,4,4)
         }
     }
     private inline fun isValidMove(move: List<Int>?): Boolean{
+        if (move.isNullOrEmpty()) return false
         return move?.run{ move[0] in 0..2 && move[1] in 0..2 && board[move[1]][move[0]] == 4} ?: false
     }
 }
