@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71795a6f-57f2-403e-819a-8cb428309195" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TicTacToe/Board.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TicTacToe/Main.kt" afterDir="false" />
+    <list default="true" id="71795a6f-57f2-403e-819a-8cb428309195" name="Default Changelist" comment="Tic-Tac-Toe Initializing board done">
       <change beforePath="$PROJECT_DIR$/../../Android/andfun-kotlin-android-trivia" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/andfun-kotlin-android-trivia" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../aws/aws-lambda-ses-forwarder" beforeDir="false" afterPath="$PROJECT_DIR$/../../aws/aws-lambda-ses-forwarder" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../misc/double-pendulum" beforeDir="false" afterPath="$PROJECT_DIR$/../../misc/double-pendulum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/META-INF/HelloWorld.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/META-INF/HelloWorld.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/resources/myfile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/graphicalComparison.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/graphicalComparison.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Board.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Board.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Main.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,8 +87,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TicTacToe/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+            <state relative-caret-position="284">
+              <caret line="88" column="28" lean-forward="true" selection-start-line="88" selection-start-column="28" selection-end-line="88" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -99,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TicTacToe/Board.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="221">
+              <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -217,7 +214,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556215867432" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556223726989" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../maps/sockMerchant.kt" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
@@ -497,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556209980430</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Tic-Tac-Toe">
+      <created>1556215999612</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1556215999612</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -556,7 +560,8 @@
     <MESSAGE value="format comparison" />
     <MESSAGE value="final build of graphics" />
     <MESSAGE value="remove myfile.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove myfile.txt" />
+    <MESSAGE value="Tic-Tac-Toe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tic-Tac-Toe" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -818,15 +823,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TicTacToe/Board.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="221">
+          <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TicTacToe/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+        <state relative-caret-position="284">
+          <caret line="88" column="28" lean-forward="true" selection-start-line="88" selection-start-column="28" selection-end-line="88" selection-end-column="28" />
         </state>
       </provider>
     </entry>
