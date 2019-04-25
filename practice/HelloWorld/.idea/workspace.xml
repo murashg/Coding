@@ -5,7 +5,11 @@
       <change beforePath="$PROJECT_DIR$/../../Android/andfun-kotlin-android-trivia" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/andfun-kotlin-android-trivia" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../aws/aws-lambda-ses-forwarder" beforeDir="false" afterPath="$PROJECT_DIR$/../../aws/aws-lambda-ses-forwarder" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../misc/double-pendulum" beforeDir="false" afterPath="$PROJECT_DIR$/../../misc/double-pendulum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/GraphicalComparisonKt$test1080i$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/GraphicalComparisonKt$test1080p$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/GraphicalComparisonKt$test720p$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GraphicalComparison.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraphicalComparison.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/graphicalComparison.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/graphicalComparison.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,11 +77,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GraphicalComparison.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+            <state relative-caret-position="476">
+              <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/graphicalComparison.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="107" selection-start-column="100" selection-end-column="107" />
             </state>
           </provider>
         </entry>
@@ -104,15 +117,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Spice.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -164,7 +168,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="105" />
     <option name="y" value="-18" />
     <option name="width" value="940" />
@@ -188,6 +192,12 @@
               <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -197,7 +207,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556209587861" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556209931997" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../maps/sockMerchant.kt" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
@@ -456,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555472666177</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="format comparison">
+      <created>1556209588133</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1556209588133</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -512,7 +529,8 @@
     <MESSAGE value="k -&gt; _ because key is not used" />
     <MESSAGE value="Formatting is key" />
     <MESSAGE value="Misspelt Jerasik" />
-    <option name="LAST_COMMIT_MESSAGE" value="Misspelt Jerasik" />
+    <MESSAGE value="format comparison" />
+    <option name="LAST_COMMIT_MESSAGE" value="format comparison" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -755,10 +773,17 @@
     <entry file="file://$PROJECT_DIR$/src/resources/myfile.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/graphicalComparison.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="107" selection-start-column="100" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/GraphicalComparison.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+        <state relative-caret-position="476">
+          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
