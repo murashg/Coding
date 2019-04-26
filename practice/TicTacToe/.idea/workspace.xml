@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c89ceaae-1834-47bf-8a3f-250a5f3fbe97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Board.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Android/andfun-kotlin-android-trivia" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/andfun-kotlin-android-trivia" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../aws/aws-lambda-ses-forwarder" beforeDir="false" afterPath="$PROJECT_DIR$/../../aws/aws-lambda-ses-forwarder" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../misc/double-pendulum" beforeDir="false" afterPath="$PROJECT_DIR$/../../misc/double-pendulum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HelloWorld/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloWorld/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HelloWorld/src/tic_tac_toe/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloWorld/src/tic_tac_toe/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Board.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Board.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -36,8 +27,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/Board.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="e#0#72#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,8 +39,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1479">
-              <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
+            <state relative-caret-position="85">
+              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#102#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -162,6 +159,21 @@
       <option name="presentableId" value="Default" />
       <updated>1556244430549</updated>
     </task>
+    <task id="LOCAL-00001" summary="Let's do this again, but add concurrency.  Coroutines are amazing.  Check them out.">
+      <created>1556294393467</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556294393467</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Optimize imports">
+      <created>1556295375430</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556295375430</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -177,7 +189,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49929875" weight="0.3297587" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49929875" visible="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -201,7 +213,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Everything is better with Coroutines!" />
     <MESSAGE value="Let's do this again, but add concurrency.  Coroutines are amazing.  Check them out." />
-    <option name="LAST_COMMIT_MESSAGE" value="Let's do this again, but add concurrency.  Coroutines are amazing.  Check them out." />
+    <MESSAGE value="Optimize imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimize imports" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -211,17 +224,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Board.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+        <state relative-caret-position="85">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#102#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Main.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Board.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#72#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,4 +1,5 @@
-import kotlinx.coroutines.*
+import kotlinx.coroutines.async
+import kotlinx.coroutines.coroutineScope
 
 class Board(private val board: List<MutableList<Int>> = listOf(mutableListOf(4,4,4), mutableListOf(4,4,4),
     mutableListOf(4,4,4))){
