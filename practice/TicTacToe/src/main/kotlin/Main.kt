@@ -1,8 +1,6 @@
-import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.runBlocking
-import kotlinx.coroutines.withContext
-import kotlinx.coroutines.*
-import java.util.*
+import java.util.Random
 
 fun main() = runBlocking{
     var runGame = true
