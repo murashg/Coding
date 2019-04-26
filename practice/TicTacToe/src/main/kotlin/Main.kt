@@ -1,8 +1,10 @@
-package tic_tac_toe
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.withContext
+import kotlinx.coroutines.*
+import java.util.*
 
-import java.util.Random
-
-fun main(){
+fun main() = runBlocking{
     var runGame = true
     val history = mutableListOf(0,0,0)
     var winner: String
@@ -70,7 +72,7 @@ fun initializeBoard(): Board{
     }
 }
 
-fun startGame(board: Board): String{
+suspend fun startGame(board: Board): String {
     print("Who will go first? (O/X/R): ")
     var player = when(readLine()?.toLowerCase()){
         "o" -> true
@@ -81,10 +83,12 @@ fun startGame(board: Board): String{
             Random().nextBoolean()
         }
     }
-    while (!board.gameOver()){
-        board.display()
-        board.makeMove(player)
-        player = !player
+    coroutineScope {
+        while (!board.gameOver()){
+            board.display()
+            board.makeMove(player)
+            player = !player
+        }
     }
     board.display()
     return board.getWinner()
