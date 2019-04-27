@@ -11,6 +11,6 @@ private fun findFirstUniqueChar(input: String): String{
     if (input.isEmpty()) return "No Unique Chars"
     val map = mutableMapOf<Char, Int>() //linkedHashMap maintains insertion order (character,count)
     for (c in input) map[c] = map[c]?.plus(1) ?: 1 //add one to map entry or create entry with val=1
-    return map.entries.find { (_, v) -> v < 2 }?.key?.toString()
+    return map.entries.find { (_, count) -> count < 2 }?.key?.toString()
         ?: "No Unique Chars" //get first character where count < 2, if none exist return default
 }
