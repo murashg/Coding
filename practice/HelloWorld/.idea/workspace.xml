@@ -2,44 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71795a6f-57f2-403e-819a-8cb428309195" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/uniqueChar.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Android/andfun-kotlin-android-trivia" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/andfun-kotlin-android-trivia" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../aws/aws-lambda-ses-forwarder" beforeDir="false" afterPath="$PROJECT_DIR$/../../aws/aws-lambda-ses-forwarder" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../misc/double-pendulum" beforeDir="false" afterPath="$PROJECT_DIR$/../../misc/double-pendulum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$display$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$display$2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$display$2$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$display$2$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$display$2$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$display$2$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$display$2$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$display$2$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$display$2$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$display$2$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$display$2$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$display$2$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$display$2$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$display$2$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$display$2$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$display$2$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$display$2$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$display$2$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$display$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$display$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$gameOver$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$gameOver$2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$gameOver$2$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$gameOver$2$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$gameOver$2$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$gameOver$2$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$gameOver$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$gameOver$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$getWinner$2$oWinner$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$getWinner$2$oWinner$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$getWinner$2$xWinner$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$getWinner$2$xWinner$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$getWinner$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$getWinner$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$sumL$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$sumL$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$sumL$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$sumL$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$sumL$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$sumL$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$sumL$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$sumL$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$sumL$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$sumL$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$sumL$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$sumL$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$sumL$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$sumL$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$sumL$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board$sumL$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/classes/Board.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/classes/MainKt$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/classes/MainKt$main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/classes/MainKt$startGame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/classes/MainKt$startGame$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/classes/MainKt$startGame$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/classes/MainKt$startGame$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/classes/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/classes/MainKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/src/main/kotlin/Board.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/src/main/kotlin/Board.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/UniqueCharKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/UniqueCharKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uniqueChar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/uniqueChar.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,7 +45,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PlusMinus/Game.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="1207">
               <caret line="72" selection-start-line="72" selection-end-line="72" />
               <folding>
                 <element signature="e#19#64#0" expanded="true" />
@@ -89,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/uniqueChar.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -177,7 +145,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="105" />
-    <option name="y" value="-19" />
+    <option name="y" value="-20" />
     <option name="width" value="940" />
     <option name="height" value="1090" />
   </component>
@@ -188,7 +156,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,10 +182,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556323727866" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556378054842" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../maps/sockMerchant.kt" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
@@ -527,14 +495,21 @@
       <option name="project" value="LOCAL" />
       <updated>1556239943032</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Unique Char's">
+      <created>1556323752079</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1556323752079</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1486" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11500701" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11640954" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -564,7 +539,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Generics, collections and the like" />
     <MESSAGE value="More work on the Conche" />
     <MESSAGE value="Finished Movie sorter." />
     <MESSAGE value="override operators" />
@@ -589,7 +563,8 @@
     <MESSAGE value="Tic-Tac-Toe Added most game logic.  Just have to finish looking for bugs." />
     <MESSAGE value="Tic-Tac-Toe Added most game logic.  More testing required." />
     <MESSAGE value="Tic-Tac-Toe Finalized game logic, changed coordinates.  Comments next and play testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tic-Tac-Toe Finalized game logic, changed coordinates.  Comments next and play testing" />
+    <MESSAGE value="Unique Char's" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unique Char's" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -854,6 +829,16 @@
     <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/PlusMinus/Game.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="e#19#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/kotlinc.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -870,20 +855,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PlusMinus/Game.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-          <folding>
-            <element signature="e#19#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/uniqueChar.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
