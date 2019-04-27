@@ -6,7 +6,6 @@
       <change beforePath="$PROJECT_DIR$/../../aws/aws-lambda-ses-forwarder" beforeDir="false" afterPath="$PROJECT_DIR$/../../aws/aws-lambda-ses-forwarder" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../misc/double-pendulum" beforeDir="false" afterPath="$PROJECT_DIR$/../../misc/double-pendulum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/UniqueCharKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/UniqueCharKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/uniqueChar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/uniqueChar.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,15 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tic_tac_toe/Main.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
-              <caret line="90" column="1" selection-start-line="90" selection-start-column="1" selection-end-line="90" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HelloWorld.iml">
           <provider selected="true" editor-type-id="text-editor" />
@@ -57,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/uniqueChar.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="221">
+              <caret line="13" column="81" selection-start-line="13" selection-start-column="81" selection-end-line="13" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -186,7 +176,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556378281202" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556378318754" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../maps/sockMerchant.kt" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
@@ -502,7 +492,28 @@
       <option name="project" value="LOCAL" />
       <updated>1556323752079</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Down to 4 lines">
+      <created>1556378131793</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1556378131793</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Down to 4 lines">
+      <created>1556378247015</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1556378247015</updated>
+    </task>
+    <task id="LOCAL-00034" summary="v to count">
+      <created>1556378315121</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1556378315121</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -518,7 +529,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32882273" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34986594" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34986594" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3941019" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -539,8 +550,7 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="More work on the Conche" />
-    <MESSAGE value="Finished Movie sorter." />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="override operators" />
     <MESSAGE value="Change input of rankMovies to use Pairs instead of string lists.  Fits with the problem using movie comparison pairs.  Also added comments" />
     <MESSAGE value="Rename children to lowerRankedMovies" />
@@ -564,7 +574,12 @@
     <MESSAGE value="Tic-Tac-Toe Added most game logic.  More testing required." />
     <MESSAGE value="Tic-Tac-Toe Finalized game logic, changed coordinates.  Comments next and play testing" />
     <MESSAGE value="Unique Char's" />
-    <option name="LAST_COMMIT_MESSAGE" value="Unique Char's" />
+    <MESSAGE value="Down to 4 lines" />
+    <MESSAGE value="v to count" />
+    <option name="LAST_COMMIT_MESSAGE" value="v to count" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -857,8 +872,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/uniqueChar.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="221">
+          <caret line="13" column="81" selection-start-line="13" selection-start-column="81" selection-end-line="13" selection-end-column="81" />
         </state>
       </provider>
     </entry>
