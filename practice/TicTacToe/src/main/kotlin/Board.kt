@@ -21,9 +21,10 @@ class Board(private val board: List<MutableList<Int>> = listOf(mutableListOf(4,4
     //returns true if there are no empty spaces, or the sum of a row, column or diagonal is equal to 0 or 3
     suspend fun gameOver(): Boolean {
         return coroutineScope{
-            async { board.none { it.contains(4) } }.await() ||
-            async { sumL.any { it() == 0 } }.await() ||
-            async { sumL.any{it() == 3} }.await()
+            val isFull = async { board.none { it.contains(4) } }
+            val isO = async { sumL.any { it() == 0 } }
+            val isX = async { sumL.any{ it() == 3 } }
+            isFull.await() || isO.await() || isX.await()
         }
     }
 

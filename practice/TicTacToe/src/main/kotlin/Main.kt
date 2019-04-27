@@ -1,4 +1,6 @@
+import kotlinx.coroutines.async
 import kotlinx.coroutines.coroutineScope
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.runBlocking
 import java.util.Random
 
@@ -81,13 +83,16 @@ suspend fun startGame(board: Board): String {
             Random().nextBoolean()
         }
     }
-    coroutineScope {
-        while (!board.gameOver()){
-            board.display()
-            board.makeMove(player)
-            player = !player
+    return coroutineScope {
+        while (!board.gameOver()) {
+            async { board.display() }.await()
+            async {
+                board.makeMove(player)
+                player = !player
+            }
         }
-    }
-    board.display()
-    return board.getWinner()
+
+        async { board.display() }
+        async { board.getWinner() }
+    }.await()
 }
